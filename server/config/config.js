@@ -4,15 +4,15 @@ require("dotenv").config();
 module.exports = {
   development: {
     username: "root",
-    password: process.env.DB_PASS,
-    database: "exampledb",
+    password: "mysql420",
+    database: "rtfm",
     host: "localhost",
     dialect: "mysql"
   },
   test: {
     username: "root",
-    password: null,
-    database: "testdb",
+    password: "mysql420",
+    database: "rtfm-test",
     host: "localhost",
     dialect: "mysql",
     logging: false
