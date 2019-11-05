@@ -4,7 +4,7 @@ require("dotenv").config();
 module.exports = {
   development: {
     username: "root",
-    password: "mysql420",
+    password: "$alesforce6",
     database: "rtfm",
     host: "localhost",
     dialect: "mysql"
